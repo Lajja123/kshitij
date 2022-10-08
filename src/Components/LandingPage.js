@@ -3,6 +3,12 @@ import logo from "../Components/Images/logo.png";
 import rocket from "../Components/Images/rocket.svg";
 import "../Components/landingpage.css";
 import Typewriter from "typewriter-effect";
+import bootstrap from "../Components/Images/bootstrap.png";
+import html from "../Components/Images/html.png";
+import scss from "../Components/Images/scss.png";
+import w3c from "../Components/Images/w3c.png";
+import download from "../Components/Images/download.png";
+import css from "../Components/Images/css.png";
 
 function LandingPage() {
   return (
@@ -67,6 +73,16 @@ function LandingPage() {
             <div className="right-img">
               <img src={rocket} />
             </div>
+          </div>
+        </div>
+        <div className="lang-content">
+          <div className="lang-icon">
+            <img src={html} className="lang-img" />
+            <img src={bootstrap} className="lang-img" />
+            <img src={css} className="lang-img" />
+            <img src={scss} className="lang-img" />
+            <img src={w3c} className="lang-img" />
+            <img src={download} className="lang-img" />
           </div>
         </div>
       </section>

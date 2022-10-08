@@ -5,6 +5,7 @@
   position: relative;
   padding: 200px 0;
   padding-top: 250px;
+  z-index: 0;
 }
 .right-img {
   width: 100%;
@@ -112,7 +113,7 @@ h1 {
 
 .rightbar-content {
   -webkit-animation: mover 1s infinite alternate;
-  animation: mover 0.7s infinite alternate;
+  animation: mover 1s infinite alternate;
 }
 
 @-webkit-keyframes mover {
@@ -135,4 +136,18 @@ h1 {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
   }
+}
+.lang-content {
+  position: relative;
+}
+
+.lang-icon {
+  position: absolute;
+  border-bottom: 1px solid gray;
+}
+.lang-img {
+  width: 5%;
+  box-shadow: 0px 0px 6px 5px rgba(239, 240, 238, 1);
+  border-radius: 50%;
+  margin: 10px;
 }
