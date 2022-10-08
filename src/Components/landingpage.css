@@ -1,0 +1,138 @@
+.left-logo-indiv {
+  width: 20vh;
+}
+#main-section {
+  position: relative;
+  padding: 200px 0;
+  padding-top: 250px;
+}
+.right-img {
+  width: 100%;
+}
+.element-content {
+  display: flex;
+  align-items: center;
+}
+.left-elememt {
+  padding: 5%;
+}
+.section-head-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.leftbar-conent {
+  width: 70%;
+}
+.color-blue-span {
+  color: #2443ac;
+  font-weight: 500;
+}
+.left-paragraph {
+  color: gray;
+  width: 70%;
+  font-size: 1.3rem;
+}
+.rightbar-content {
+  width: 30%;
+}
+.left-buttons {
+  padding-top: 10px;
+  margin-top: 5%;
+}
+.left-buttons :hover {
+  background-color: #2443ac;
+  color: white;
+}
+.typewrite-content {
+  display: flex;
+  padding-top: 10px;
+  font-size: xx-large;
+}
+.font-style {
+  padding-left: 10px;
+}
+
+#element-primary-text {
+  color: #2443ac;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinking-cursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: pink;
+  }
+}
+.info-span {
+  border-radius: 50%;
+  color: white;
+  margin-left: 10px;
+  background-color: #e43f52 !important;
+  padding: 15px;
+}
+.demo-btn {
+  padding: 15px;
+  width: 15%;
+  color: white;
+  background-color: #2443ac;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.left-download {
+  padding: 15px;
+  color: #2443ac;
+  border: 1px solid #2443ac;
+  width: 20%;
+
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.left-title {
+  display: flex;
+}
+
+.rightbar-content {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 0.7s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+  }
+}

@@ -1,0 +1,46 @@
+/* ............Header Css.................... */
+.main-header {
+  position: fixed;
+  background-color: transparent;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin-top: 50px;
+}
+.header-container {
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left-navbar {
+  display: flex;
+  align-items: center;
+}
+.logo-navbar {
+  width: 15vh;
+}
+li.submenu {
+  list-style-type: none;
+  margin-right: 30px;
+  padding: 0;
+}
+.submenu:hover {
+  color: #2443ac;
+}
+.home-nav {
+  color: #2443ac;
+}
+.navigation-menu {
+  display: flex;
+}
+.button {
+  padding: 15px;
+
+  background-color: #2443ac;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
