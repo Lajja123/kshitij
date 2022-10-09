@@ -5,7 +5,7 @@
   right: 0;
   left: 0;
   top: 0;
-  margin-top: 50px;
+  margin-top: 20px;
   z-index: 1;
 }
 .header-container {
@@ -15,6 +15,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: white;
 }
 .left-navbar {
   display: flex;
