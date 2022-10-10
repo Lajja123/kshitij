@@ -22,7 +22,7 @@ function LandingPage() {
                   <img src={logo} className="left-logo-indiv" />
                 </div>
                 <div className="circle-elemet">
-                  <span className="info-span">V3.1</span>
+                  <span className="info-span">v3.1</span>
                 </div>
               </div>
               {/* <div className="span-content"></div> */}
