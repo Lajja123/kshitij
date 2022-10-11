@@ -155,12 +155,37 @@ li.submenu:hover {
   .left-navbar {
     display: flex;
     align-items: center;
-    margin-left: 50%;
+    margin-left: 55%;
   }
   .header-container {
     margin-left: 10%;
     justify-content: flex-start;
   }
+  .header-container {
+    height: 10vh;
+    /* margin-left: 4%; */
+    width: 90%;
+}
+.main-header {
+  position: fixed;
+  background-color: white;
+  right: 0;
+  left: 0;
+  top: 0;
+  /* margin-top: 0px; */
+  z-index: 1;
+}
+.left-navbar {
+  display: flex;
+  align-items: center;
+  margin-left: 60%;
+}
+#main-section {
+  position: relative;
+  padding: 200px 0;
+  padding-top: 150px;
+  z-index: 0;
+}
 }
 @media screen and (max-width: 320px) {
   .header-container {
@@ -215,4 +240,14 @@ li.submenu:hover {
     transform: translate(90%, 0);
     /* transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1); */
   }
+}
+@media screen and (max-width:425px){
+  .header-container {
+    height: 10vh;
+    /* margin-left: 4%; */
+    width: 100%;
+}
+.button{
+  display: none;
+}
 }
