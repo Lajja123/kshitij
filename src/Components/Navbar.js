@@ -14,6 +14,9 @@ function Navbar() {
           </div>
           <div className="left-navbar">
             <div className="navigation">
+              <input type="checkbox" className="check-menu" /> <span></span>
+              <span></span>
+              <span></span>
               <ul className="navigation-menu">
                 <li className="submenu home-nav">Home</li>
                 <li className="submenu">Demos</li>

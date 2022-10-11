@@ -26,9 +26,8 @@ function LandingPage() {
                 </div>
               </div>
               {/* <div className="span-content"></div> */}
-
-              <h1 className="typewrite-content">
-                Build For{""}
+              <div className="typeeffect">
+                <h4 className="typewrite-content">Build For{""} </h4>
                 <span
                   style={{ color: "#2443ac", fontWeight: "bold" }}
                   className="font-style"
@@ -47,8 +46,7 @@ function LandingPage() {
                     }}
                   />
                 </span>
-              </h1>
-
+              </div>
               <div className="left-paragraph">
                 <p>
                   Start working with{" "}
@@ -59,7 +57,7 @@ function LandingPage() {
               </div>
 
               <div className="left-buttons">
-                <button type="button" className="demo-btn">
+                <button type="button" className="demo-btn demo-button ">
                   Veiw Demo
                 </button>
 
