@@ -252,7 +252,7 @@ h1 {
     border-bottom: 1px solid lightgray;
     top: 150px;
     height: 100%;
-}
+  }
   .section-head-content {
     display: flex;
     flex-direction: row;
@@ -375,12 +375,13 @@ h1 {
   .lang-content {
     position: relative;
     border-bottom: 1px solid lightgray;
-    top: 500px;
+    top: 400px;
     height: 100%;
   }
   .right-img {
     width: 200.66667%;
     margin-left: 20%;
+    margin-top: 30%;
   }
   .lang-img {
     width: 20%;
@@ -392,9 +393,36 @@ h1 {
     bottom: -30px;
     margin: 10px;
   }
-  
+
   .lang-icon {
     border-bottom: 1px solid lightgray;
   }
-  
 }
+/* @media screen and (max-width: 425px) {
+  .section-head-content {
+    display: block;
+    margin: 0px;
+    padding: 20px;
+  }
+  .left-paragraph {
+    width: 100%;
+  }
+  .font-style {
+    font-size: x-large;
+  }
+  .typewrite-content {
+    padding-top: 0px;
+  }
+  .left-elememt {
+    padding: 20px;
+  }
+  .leftbar-conent {
+    width: 100%;
+  }
+  .demo-btn {
+    width: 40%;
+  }
+  .left-download {
+    width: 50%;
+  }
+} */
